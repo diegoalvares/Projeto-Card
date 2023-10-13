@@ -6,7 +6,7 @@
 }
 
 :root{
-   /* Cores Primárias */
+/* Cores Primárias */
 
 --azul: hsl(215, 51%, 70%);
 --ciano: hsl(178, 100%, 50%);
@@ -25,6 +25,28 @@ body{
     min-width: 375px;
 }
 
+#img_card{
+    border-radius: 20px;
+}
+
+#olho{
+    background-color: var(--ciano);
+    width:'300px';
+    position: absolute;
+    margin-top: -427px;
+    padding: 123px;
+    padding-left: 127px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#olho:hover{
+    opacity: 1;
+    background-color:  hsla(178, 100%, 50%, 50%);
+    transition-duration: 0.5s;
+}
+
 p{
     font-size: 18px;
     margin-top: 20px;
@@ -37,7 +59,7 @@ p{
     width: 300px;
     padding: 30px;
     border-radius: 20px;
-    margin-top: 160px;
+    margin-top: 130px;
 }
 
 #card>h1{
@@ -46,12 +68,17 @@ p{
     font-size: 22px;
 }
 
+#card>h1:hover{
+    color: var(--ciano);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
 #container1{
     display: flex;
     align-items: center;
     margin-left: 0px;
 }
-
 
 #ethereum{
     margin-top: 30px;
@@ -112,4 +139,10 @@ hr{
 
 #nome{
     color: var(--branco);
+}
+
+#nome:hover{
+    color: var(--ciano);
+    cursor: pointer;
+    transition-duration: 0.5s;    
 }
