@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
+}
+
+:root{
+   /* Cores Primárias */
+
+--azul: hsl(215, 51%, 70%);
+--ciano: hsl(178, 100%, 50%);
+
+/* Cores Neutras */
+
+--fundo: hsl(217, 54%, 11%);
+--card: hsl(216, 50%, 16%);
+--linha: hsl(215, 32%, 27%);
+--branco: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--fundo);
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: var(--azul);
+    font-weight: 300;
+}
+
+#card{
+    background-color: var(--card);
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 160px;
+}
+
+#card>h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+#container1{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+
+#ethereum{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+#ethereum_valor{
+    color: var(--ciano);
+    font-weight: 600;
+    font-size: 16px; 
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+#tempo{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#relogio{
+    margin-left: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#dias{
+    font-size: 16px;
+    color: var(--azul);
+    font-weight: 300;
+
+}
+
+hr{
+    margin-top: 25px;
+    border-color: var(--linha)
+}
+
+#avatar>img{
+    border: solid white 1.5px;
+    border-radius: 100%;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#container2{
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+}
+
+#criado{
+    margin-left: -15px;
+    margin-top: 25px;
+}
+
+#nome{
+    color: var(--branco);
+}
