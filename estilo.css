@@ -22,7 +22,6 @@
 body{
     background-color: var(--fundo);
     max-width: 1440px;
-    min-width: 375px;
 }
 
 #img_card{
